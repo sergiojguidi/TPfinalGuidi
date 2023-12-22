@@ -1,0 +1,14 @@
+header  {
+   display: flex;
+   align-items: left;
+   justify-content: space-between;
+   border-bottom: 2px solid blue;
+}
+
+li {
+    display: inline-flex;
+    color: blue;
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 25px;
+}
