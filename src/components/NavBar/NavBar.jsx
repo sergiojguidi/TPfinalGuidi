@@ -1,17 +1,36 @@
 import React from 'react'
 import './NavBar.css'
 import CarWidget from '../CardWidget/CardWidget'
-
+import { Link, NavLink } from 'react-router-dom'
 const NavBar = () => {
   return (
     <header>
-       <h1> Agua y Soda Ivess</h1>
+       <Link to="/">
+           <h1> Agua y Soda Ivess</h1>
+       </Link>
+       
        <nav>
           <ul>
-             <li>Agua En Bidones</li>
-             <li>Agua Descartable</li>
-             <li>Soda</li>
-             <li>Agua Saborizada</li>
+             <li>
+             <NavLink className='sinSubrayar' to="/category/1">
+                 Agua En Bidones
+             </NavLink>
+             </li>
+             <li>
+               <NavLink className='sinSubrayar' to="/category/4">
+                  Agua Descartable
+               </NavLink>
+             </li>
+             <li>
+               <NavLink className='sinSubrayar' to="/category/2">
+                  Soda
+               </NavLink>
+             </li>
+             <li>
+               <NavLink className='sinSubrayar' to="/category/3">
+                  Agua Saborizada
+               </NavLink>
+             </li>
           </ul>
        </nav>
        <CarWidget/>
