@@ -1,0 +1,47 @@
+.item-count {
+    text-align: center;
+    margin: 20px;
+}
+
+.counter-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    background-color: #4CAF50; /* Color de fondo */
+    border: none;
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio dentro del botón */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 12px;
+    cursor: pointer;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.counter {
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.add-to-cart {
+    background-color: #008CBA; /* Color de fondo */
+    border: none;
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espacio dentro del botón */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px 10px 10px; /* Ajuste el margen para separar del contador */
+    cursor: pointer;
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.add-to-cart:hover, .button:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el mouse */
+}

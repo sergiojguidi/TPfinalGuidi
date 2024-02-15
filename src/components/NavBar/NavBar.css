@@ -1,4 +1,4 @@
-header  {
+/* header  {
    display: flex;
    align-items: left;
    justify-content: space-between;
@@ -17,4 +17,58 @@ li {
 
 .sinSubrayar {
     text-decoration: none;
-}
+} */
+
+.header {
+    background-color: #D9E9EA; /* Color de fondo para el header */
+    color: #fff; /* Color del texto */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    text-decoration: none;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #337AFF;
+  }
+  
+  .logo:hover {
+    color: white; /* Color al pasar el mouse sobre los enlaces */
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li {
+    display: inline;
+    margin-right: 25px;
+  }
+  
+  .nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-link {
+    color: #337AFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 22px;
+  }
+  
+  .nav-link:hover {
+    color: white; /* Color al pasar el mouse sobre los enlaces */
+  }
+  
+  .active {
+    font-weight: bold; /* Estilo para el enlace activo */
+  }
+  

@@ -4,30 +4,30 @@ import CarWidget from '../CardWidget/CardWidget'
 import { Link, NavLink } from 'react-router-dom'
 const NavBar = () => {
   return (
-    <header>
-       <Link to="/">
+    <header className='header'>
+       <Link to="/" className='logo'>
            <h1> Agua y Soda Ivess</h1>
        </Link>
        
-       <nav>
+       <nav className='nav'>
           <ul>
              <li>
-             <NavLink className='sinSubrayar' to="/category/1">
+             <NavLink className='nav-link' activeclassname='active' to="/category/1">
                  Agua En Bidones
              </NavLink>
              </li>
              <li>
-               <NavLink className='sinSubrayar' to="/category/4">
+               <NavLink className='nav-link' activeclassname='active' to="/category/4">
                   Agua Descartable
                </NavLink>
              </li>
              <li>
-               <NavLink className='sinSubrayar' to="/category/2">
+               <NavLink className='nav-link' activeclassname='active' to="/category/2">
                   Soda
                </NavLink>
              </li>
              <li>
-               <NavLink className='sinSubrayar' to="/category/3">
+               <NavLink className='nav-link' activeclassname='active' to="/category/3">
                   Agua Saborizada
                </NavLink>
              </li>

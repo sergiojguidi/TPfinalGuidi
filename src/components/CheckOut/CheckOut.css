@@ -1,0 +1,86 @@
+/* Estilos para el contenedor principal */
+.checkout-container {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para el título */
+  .checkout-container h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el formulario */
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Estilos para cada ítem del carrito */
+  .checkout-item {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .checkout-input {
+    margin-bottom: 15px;
+  }
+  
+  .checkout-input label {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .checkout-input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para el mensaje de error */
+  .error-message {
+    color: #ff0000;
+    margin-bottom: 15px;
+  }
+  
+  /* Estilos para los botones */
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  .checkout-button {
+    padding: 20px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .checkout-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el mensaje de confirmación de orden */
+  .order-message {
+    color: #009900;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

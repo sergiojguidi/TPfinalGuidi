@@ -1,3 +1,38 @@
-.CardWidget {
-    display: inline-flex;
-}
+.card-widget {
+    position: relative;
+  }
+  
+  .cart-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .cart-icon {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .cart-icon img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .cart-quantity {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    background-color: #007bff; /* Color de fondo para el círculo */
+    color: #fff; /* Color del texto del número */
+    border-radius: 50%; /* Hace que el número esté en un círculo */
+    width: 30px; /* Ancho del círculo */
+    height: 30px; /* Altura del círculo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; /* Tamaño del texto */
+  }
+  
+  .cart-quantity:hover {
+    background-color: #fff; /* Color de fondo para el círculo */
+    color: #007bff; /* Color del texto del número */
+  }
